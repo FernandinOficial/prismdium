@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+    $conexao = mysqli_connect("localhost","root","");
+    mysqli_select_db($conexao, "prismdium");
+    session_start();
+?>
 <html lang="pt-br">
 
 <head>
@@ -33,7 +38,7 @@
                     <ul><a class="nav__a" href="">Produtos</a></ul>
                     <ul><a class="nav__a" href="">Comunidade</a></ul>
                     <ul><a class="nav__a" href="">Créditos</a></ul>
-                    <ul><a class="nav__sair" onclick="" href="">Sair</a></ul>
+                    <ul><a class="nav__sair" href="logout.php">Sair</a></ul>
                 </ul>
             </div>
         </div>
