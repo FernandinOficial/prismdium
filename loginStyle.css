@@ -1,0 +1,86 @@
+@font-face {
+    font-family: pixel;
+    src: url(Images/fonts/pixelFont/Pixeled.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.voltar{
+    padding: 1%;
+    width: 13vh;
+    position: absolute;
+}
+.voltar:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.title{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.title__welcome{
+    color: white;
+    font-size: 28px;
+}
+.descricao{
+    font-weight: 300;
+    line-height: 40px;
+}
+.btn{
+    border-radius: ;
+}
+/* Register */
+#register{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 4vh;
+    background-color: rgb(150, 150, 150);
+    width: 80%;
+    height: 60%;
+}
+#register::before{
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    width: 45%;
+    height: 100%;
+    border-radius: 4vh 0 0 4vh;
+}
+.register__first-column{
+    flex: 1 0 auto;
+    text-align: center;
+    z-index: 2;
+}
+.register__second-column{
+    flex: 2 0 auto;
+}
+
+
+
+/* Login */
+#login{
+    display: none;
+    text-align: center;
+}
+.list__media-social{
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}

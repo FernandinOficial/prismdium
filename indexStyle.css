@@ -1,0 +1,331 @@
+    @font-face {
+    font-family: pixel;
+    src: url(Images/fonts/pixelFont/Pixeled.ttf);
+}
+
+
+::-webkit-scrollbar {
+    width: 0.1px;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+*::selection {
+    color: black;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+body {
+    background-color: #ffffff;
+    color: #fff;
+}
+
+
+
+.header {
+    width: 100vw;
+    height: 5vw;
+    margin-left: auto; /* Remova ou ajuste conforme necessário */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    background-color: #0e0e0e;
+    padding-right: 10vw;
+}
+
+
+    .header a {
+        margin-right: 5vw; /* Define o espaçamento entre os elementos */
+        font-size: 25px;
+        margin-top: 1.25vw;
+        margin-left: -2vw;
+        font-weight: bold;
+    }
+    .header a:hover {
+        transform: scale(1.3); /* Aumenta a escala em 30% */
+        transition: 300ms;
+    }
+    .header img {
+        margin-left: 2.5vw;
+        width: 3vw;
+        top: 1vw;
+        align-items: center;
+        scale: 1.2;
+    }
+
+
+.logo {
+    width: 4vw;
+    height: 4vw;
+}
+a {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #d6d6d6;
+}
+.nav__a{
+    font-family: "Pixelify Sans", sans-serif;
+    color: #ffffff;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    width: 100vw;
+}
+
+.nav__menu {
+    position: fixed;
+    display: block; 
+    left: 0vw;
+    top: 5vw;
+    display: none;
+}
+.nav__menu.hidden {
+    display: none;
+}
+
+.hide-nav-button {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    left: 0vw;
+    top: 0vw;
+    background-color: #0e0e0e;
+    z-index: 101;
+}
+.hide-nav-button:hover {
+    scale: 1.05;
+}
+.hide-nav-button__img {
+    width: 4vw;
+    height: 3vw;
+}
+.nav {
+    position: absolute;
+    left: 0;
+    top: 0vw;
+    padding: 1.5vw;
+    width: 15vw;
+    background-color: #333;
+    border-bottom-width: 10px; /* Largura da borda */
+    border-bottom-style: solid; /* Estilo da borda */
+    border-bottom-color: rgb(0, 0, 0); /* Cor da borda */
+    border-radius: 0 3vw 3vw 0;
+    z-index: 101;
+}
+
+.nav ul {
+    margin-bottom: 1vw;
+    font-size: 20px;
+}
+.nav ul:hover {
+    margin-left: 1vw;
+    transition: 300ms;
+    transform: scale(1.1);
+}
+.nav img {
+    width: 5vw;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+}
+.nav img:hover {
+    scale: 1.2;
+    transition: 500ms;
+}
+.nav__sair {
+    margin-bottom: 1vw;
+    margin-left: 4vw;
+    color: red;
+}
+
+
+
+.texto__inicio {
+    flex-direction: column;
+    display: flex;
+    margin-top: 3vw;
+    font-size: 30px;
+    font-family: pixel;
+    color: #e6e6e6;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.pesquisar__menu {
+    text-align: center; /* Para centralizar horizontalmente */
+}
+
+.pesquisar-container {
+    display: flex;
+    align-items: center; /* Para centralizar verticalmente */
+    margin-top: 3vw;
+}
+
+.pesquisar {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+    padding-left: 25px;
+    width: 25vw;
+    height: 5vw;
+    font-size: 20px;
+    border-radius: 2vw;
+    background-color: #adadad;
+    font-family: "Pixelify Sans", sans-serif;
+    border: none; /* Remova a borda do input */
+    cursor: pointer;
+}
+
+.source {
+    width: 4vw;
+    height: 5vw;
+    margin-left: -4vw;
+    margin-top: 5vw;
+    background-color: rgb(11, 138, 0);
+    border: none;
+    border-radius: 0 2vw 2vw 0;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.source img {
+    width: 100%; /* Para ajustar a imagem dentro do botão */
+    height: auto;
+}
+
+.source:hover {
+    scale: 1.05;
+    transition: 500ms;
+    background-color: rgb(14, 170, 0);
+}
+.source__img{
+    width: 3vw;
+    height: 3vw;
+}
+
+
+
+.jogos > h1::selection{
+    color: white;
+    background-color: black;
+}
+.noticias > h1::selection{
+    color: white;
+    background-color: black;
+}
+
+
+.jogos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center; /* Adicionado para centralizar os botões */
+    margin-top: 0.5vw;
+}
+.jogos__texto {
+    position: absolute;
+    align-items: center;
+    width: 10vw;
+    margin-top: -25vw;
+    margin-left: -1vw;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: pixel;
+    color: #0e0e0e;
+}
+.button__jogos {
+    margin: 1vw; /* Ajuste a margem conforme necessário */
+    border-radius: 2vw;
+    border: black 4px solid;
+    width: 28vw;
+    height: 18vw;
+    background-color: #0e0e0e;
+}
+
+.img__jogos {
+    margin-left: 0vw;
+    width: 27.4vw;
+    height: 17.4vw;
+    border-radius: 1.5vw;
+}
+
+.button__jogos h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogos .button__jogos:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+
+.noticias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center; /* Adicionado para centralizar os botões */
+    margin-top: 8vw;
+}
+.noticias__texto {
+    position: absolute;
+    align-items: center;
+    width: 10vw;
+    margin-top: -25vw;
+    margin-left: -5vw;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: pixel;
+    color: #0e0e0e;
+}
+.button__noticias {
+    margin: 1vw; /* Ajuste a margem conforme necessário */
+    border-radius: 2vw;
+    border: black 4px solid;
+    width: 28vw;
+    height: 18vw;
+    background-color: #0e0e0e;
+}
+.button__noticias h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noticias .button__noticias:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+#sobre {
+    width: 100vw;
+    height: 20vw;
+    background-color: rgb(14, 14, 14);
+}
