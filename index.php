@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studios Grimm</title>
+    <title>Prismdium</title>
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="shortcut icon" href="Images/icon/LogoWhite_semfundo.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="favicon.png">
@@ -34,7 +34,30 @@
         <div class="dp__none">
             <div class="nav__menu">
                 <ul class="nav">
-                    <a href="login.html" target="_blank"><img src="Images/loginIconBranco.png" alt="Perfil do Login"></a>
+                    <a href="login.php" target="_blank"><img src="
+                        <?php
+                        if(!isset($_SESSION["imagem"]))
+                        {
+                            echo 'Images/loginIconBranco.png';
+                        }
+                        else
+                        {
+                            echo '<img href="perfil.php" src="'.$_SESSION["imagem"].'"';
+                        }
+                        ?>" alt="Perfil do Login"></a>
+                    <ul>
+                        <?php 
+                        
+                        if(!isset($_SESSION["usuario"]) && !isset($_SESSION["senha"]))
+                        {
+                            echo '<a style="color:rgb(255, 60, 60);" href="login.php">Não Logado</a>';
+                        }
+                        else
+                        {
+                            echo '<a style="color:rgb(60, 168,40);" href="perfil.php">'.$_SESSION["nome"].'</a>';
+                        }
+                        ?>
+                    </ul>
                     <ul><a class="nav__a" href="">Produtos</a></ul>
                     <ul><a class="nav__a" href="">Comunidade</a></ul>
                     <ul><a class="nav__a" href="">Créditos</a></ul>

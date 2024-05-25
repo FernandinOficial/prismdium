@@ -38,9 +38,10 @@
     font-weight: 300;
     line-height: 40px;
 }
-.btn{
+/* .btn{
     border-radius: ;
-}
+} */
+
 /* Register */
 #register{
     position: relative;
@@ -83,4 +84,7 @@
 form{
     display: flex;
     flex-direction: column;
+}
+input{
+    width: 40%;
 }

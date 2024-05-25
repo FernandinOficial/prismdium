@@ -14,7 +14,7 @@
 
 // Função para alterar o título
 function changeTitle() {
-    document.title = "Studios Grimm";
+    document.title = "Prismdium";
 }
 
 // Função para restaurar o título original

@@ -76,7 +76,7 @@ a {
     font-family: "Pixelify Sans", sans-serif;
     color: #ffffff;
 }
-.main {
+    .main {
     display: flex;
     flex-direction: column;
     justify-content: center;

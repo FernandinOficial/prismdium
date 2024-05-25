@@ -1,10 +1,14 @@
 <!DOCTYPE html>
+<?php 
+    $conexao = mysqli_connect("localhost","root","");
+    mysqli_select_db($conexao,"prismdium");
+?>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Studios Grimm</title>
+    <title>Login - Prismdium</title>
     <link rel="stylesheet" href="loginStyle.css">
 </head>
 
@@ -33,10 +37,10 @@
                             <li><a href="">Steam</a></li>
                         </ul>
                     </div>
-                    <form action="register.php" method="post">
-                        <input type="text" placeholder="Name" required>
+                    <form action="autenticar.php" method="post">
+                        <input type="name" placeholder="Name" required>
                         <input type="email" placeholder="E-mail" required>
-                        <input type="password" placeholder="Password" required>
+                        <input type="pass" placeholder="Password" required>
 
                         <input type="radio" name="sexo" id="sexo" required>
                         <input type="radio" name="sexo" id="sexo">
@@ -68,7 +72,7 @@
                     </div>
                     <form action="login.php" method="post">
                         <input type="email" placeholder="E-mail" required>
-                        <input type="password" placeholder="Password" required>
+                        <input type="pass" placeholder="Password" required>
                         <a href="">Esqueceu sua senha?</a>
 
                         <input type="submit" value="Sign in">
@@ -77,6 +81,11 @@
             </div> <!--Login-->
         </div> <!--Container-->
     </main>
+    <?php 
+    
+        $name = $_POST
+
+    ?>
 </body>
 
 </html>
