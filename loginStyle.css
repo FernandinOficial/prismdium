@@ -8,83 +8,75 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: pixel;
+    color: black;
+}
+#voltar{
+    position: relative;
 }
 .voltar{
     padding: 1%;
-    width: 13vh;
-    position: absolute;
+    width: 10vh;
 }
 .voltar:hover{
     transform: scale(1.1);
     transition: 500ms;
 }
-#container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
+h1{
+  text-align: center;  
 }
-.title{
-    font-size: 28px;
-    text-transform: capitalize;
-}
-.title__welcome{
-    color: white;
-    font-size: 28px;
-}
-.descricao{
-    font-weight: 300;
-    line-height: 40px;
-}
-/* .btn{
-    border-radius: ;
-} */
-
-/* Register */
-#register{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border-radius: 4vh;
-    background-color: rgb(150, 150, 150);
-    width: 80%;
-    height: 60%;
-}
-#register::before{
-    content: "";
-    position: absolute;
-    background-color: blueviolet;
-    width: 45%;
-    height: 100%;
-    border-radius: 4vh 0 0 4vh;
-}
-.register__first-column{
-    flex: 1 0 auto;
-    text-align: center;
-    z-index: 2;
-}
-.register__second-column{
-    flex: 2 0 auto;
-}
-
-
-
-/* Login */
 #login{
-    display: none;
+    width: 40vw;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.list__media-social{
-    display: flex;
+.texto1{
+    padding: 1vw 4vw 0 4vw;
 }
-form{
-    display: flex;
-    flex-direction: column;
+.texto2{
+    padding: 0 4vw 3vw 4vw;
 }
 input{
-    width: 40%;
+    padding: 1%;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    border-radius: 20vw;
+    border: 0;
+    background-color: rgb(212, 212, 212);
+}
+input:hover{
+    transition: 500ms;
+    transform: scale(1.03);
+}
+.input1{
+    padding-left: 5%;
+}
+.submit{
+    width: 20vw;
+    background-color: rgb(177, 177, 177);
+    color: rgb(54, 54, 54);
+    border-radius: 20vw;
+    border: 0;
+    cursor: pointer;
+}
+.submit:hover{
+    border: 0;
+    color: rgb(211, 209, 209);
+    background-color: rgb(53, 53, 53);
+    transition: 800ms;
+    transform: scale(1.03);
+}
+#pass{
+    letter-spacing: 2px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+fieldset{
+    border: 0;
+    background-color: rgb(238, 231, 231);
+    border-radius: 5vw;
 }

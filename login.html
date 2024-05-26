@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Prismdium</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.php" id="voltar">
+            <img src="Images/voltar.png" alt="Botao Voltar para Home" class="voltar">
+        </a>
+    </nav>
+    <main>
+        <div id="login">
+            <fieldset>
+                <div class="texto1">
+                    <h1 style="margin-bottom: 1vw;">Logue-se Ja!</h1>
+                    <p style="float: left;">Login with:</p>
+                    <ul>
+                        <li>Google</li>
+                        <li>Steam</li>
+                    </ul>
+                </div>
+                <div class="texto2">
+                    <form action="autenticar.php">
+
+                        <input  class="input1" maxlength="100" type="email" name="email" id="email" placeholder="E-mail" required><br>
+                        <input class="input1" maxlength="50" type="password" name="pass" id="pass"  placeholder="Senha" required><br>
+
+                        <input class="submit" type="submit" value="Entrar">
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+    </main>
+</body>
+
+</html>

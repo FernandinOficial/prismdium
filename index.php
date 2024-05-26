@@ -34,7 +34,7 @@
         <div class="dp__none">
             <div class="nav__menu">
                 <ul class="nav">
-                    <a href="login.php" target="_blank"><img src="
+                    <a href="login.html" target="_blank"><img src="
                         <?php
                         if(!isset($_SESSION["imagem"]))
                         {
