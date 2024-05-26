@@ -2,7 +2,7 @@
     function sucesso() {
         setTimeout(function() {
             window.location = 'index.php';
-        }, 0000);
+        }, 0);  // Ajustado para 0
     }
     function failed() {
         setTimeout(function() {
@@ -12,37 +12,31 @@
 </script>
 
 <?php
+
 $conexao = mysqli_connect("localhost", "root", "", "prismdium");
 
 if (!$conexao) {
     die("Conexão falhou: " . mysqli_connect_error());
 }
-
 session_start();
 
-if (isset($_POST["email"]) && isset($_POST["pass"])) {
-    $user = $_POST["email"];
+
+    $email = $_POST["email"];
     $pass = $_POST["pass"];
 
-    $stmt = $conexao->prepare("SELECT * FROM usuarios WHERE usuario = ? AND senha = ?");
-    $stmt->bind_param("ss", $user, $pass);
-    $stmt->execute();
-    $resultado = $stmt->get_result();
+    $consulta = mysqli_query($conexao, "SELECT * FROM usuarios WHERE email = '$email' AND senha= '$pass'") or die (mysqli_error($conexao));
 
-    if ($resultado->num_rows == 0) {
-        echo 'O login falhou. Você será redirecionado para a página de login em 3 segundos.';
+    $linhas = mysqli_num_rows($consulta);
+
+    if ($linhas == 0) {
+        echo '<p style=" font-family: sans-serif;font-size: 30px;color: red;">Dados Incorretos</p>';
         echo '<script language="javascript">failed()</script>';
     } else {
-        $_SESSION["usuario"] = $user;
+        $user_data = mysqli_fetch_assoc($consulta);
+        $_SESSION["usuario"] = $user_data['usuario'];  // Ajustado para pegar o dado correto do banco
         $_SESSION["senha"] = $pass;
+        $_SESSION["imagem"] = $user_data['imagem'];  // Ajustado para pegar o dado correto do banco
         echo '<script language="javascript">sucesso()</script>';
     }
 
-    $stmt->close();
-} else {
-    echo '<p style=" font-family: sans-serif;font-size: 30px;color: red;">Dados Incorretos</p>';
-    echo '<script language="javascript">failed()</script>';
-}
-
-mysqli_close($conexao);
 ?>
