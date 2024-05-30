@@ -54,7 +54,7 @@
                         }
                         else
                         {
-                            echo '<a style="color:rgb(60, 168,40);" href="perfil.php">'.$_SESSION["nome"].'</a>';
+                            echo '<a style="color:rgb(60, 168,40);" href="perfil.php">'.$_SESSION["usuario"].'</a>';
                         }
                         ?>
                     </ul>

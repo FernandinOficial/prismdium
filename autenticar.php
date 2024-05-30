@@ -33,8 +33,7 @@ session_start();
         echo '<script language="javascript">failed()</script>';
     } else {
         $user_data = mysqli_fetch_assoc($consulta);
-        $_SESSION["usuario"] = $user_data['usuario'];  // Ajustado para pegar o dado correto do banco
-        $_SESSION["senha"] = $pass;
+        $_SESSION["usuario"] = $user_data['nome'];  // Ajustado para pegar o dado correto do banco
         $_SESSION["imagem"] = $user_data['imagem'];  // Ajustado para pegar o dado correto do banco
         echo '<script language="javascript">sucesso()</script>';
     }

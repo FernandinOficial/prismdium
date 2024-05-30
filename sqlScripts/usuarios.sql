@@ -16,3 +16,5 @@ select * from usuarios;
 -- INSERT INTO usuarios (id, nome, usuario, senha, sexo) VALUES (NULL, 'fernando', 'fernando@gmail.com', '12345', 'M');
 
 select * from usuarios;
+
+-- ALTER TABLE usuarios CHANGE usuario email VARCHAR(255);
