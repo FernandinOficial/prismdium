@@ -34,6 +34,7 @@ session_start();
     } else {
         $user_data = mysqli_fetch_assoc($consulta);
         $_SESSION["usuario"] = $user_data['nome'];  // Ajustado para pegar o dado correto do banco
+        $_SESSION["senha"] = $user_data['senha'];
         $_SESSION["imagem"] = $user_data['imagem'];  // Ajustado para pegar o dado correto do banco
         echo '<script language="javascript">sucesso()</script>';
     }
