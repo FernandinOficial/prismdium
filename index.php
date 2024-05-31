@@ -34,7 +34,7 @@
         <div class="dp__none">
             <div class="nav__menu">
                 <ul class="nav">
-                    <a href="login.html" target="_blank"><img src="
+                    <a href="login.php" target="_self"><img style="border-radius: 30px;" src="
                         <?php
                         if(!isset($_SESSION["imagem"]))
                         {
@@ -42,19 +42,19 @@
                         }
                         else
                         {
-                            echo '<img href="perfil.php" src="'.$_SESSION["imagem"].'"';
+                            echo '.$_SESSION["imagem"].';
                         }
                         ?>" alt="Perfil do Login"></a>
                     <ul>
                         <?php 
                         
-                        if(!isset($_SESSION["usuario"]) && !isset($_SESSION["senha"]))
+                        if(!isset($_SESSION["usuario"]))
                         {
-                            echo '<a style="color:rgb(255, 60, 60);" href="login.php">Não Logado</a>';
+                            echo '<a style="color:rgb(255, 60, 60);" target="_self" href="login.php">Não Logado</a>';
                         }
                         else
                         {
-                            echo '<a style="color:rgb(60, 168,40);" href="perfil.php">'.$_SESSION["usuario"].'</a>';
+                            echo '<a style="color:rgb(2, 141, 2);" target="_self" href="perfil.php">'.$_SESSION["usuario"].'</a>';
                         }
                         ?>
                     </ul>
