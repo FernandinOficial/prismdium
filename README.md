@@ -22,4 +22,7 @@ CREATE TABLE usuarios
 INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('fernando', 'fernando@gmail.com', '12345', 'M');
 
 SELECT * FROM usuarios;
+```
 * Execute o c
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/0c818eb6-51b5-439e-a371-e7785d622406)
+
