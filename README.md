@@ -4,7 +4,7 @@
 
 Copie e cole o seguinte código:
 
-```sql
+```
 CREATE DATABASE prismdium;
 USE prismdium;
 
