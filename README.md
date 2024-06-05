@@ -1,8 +1,9 @@
 # Anotações
 
 ## Inserção do banco de dados
-
-Copie e cole o seguinte código:
+* Inicie o MySQL e Apache;
+* Crie um arquivo chamado database.sql
+* Copie e cole o seguinte código:
 
 ```
 CREATE DATABASE prismdium;
@@ -21,3 +22,4 @@ CREATE TABLE usuarios
 INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('fernando', 'fernando@gmail.com', '12345', 'M');
 
 SELECT * FROM usuarios;
+* Execute o c
