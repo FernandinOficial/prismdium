@@ -11,6 +11,6 @@ CREATE TABLE usuarios
     foto_perfil BLOB -- Tipo de dado para armazenar imagens até 64KB
 );
 
-INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('fernando', 'fernando@gmail.com', '12345', 'M');
+INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('teste', 'teste@gmail.com', '12345', 'NS');
 
 SELECT * FROM usuarios;
