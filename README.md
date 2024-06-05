@@ -3,7 +3,6 @@
 Copie e cole o seguinte codigo.
   -- CREATE DATABASE prismdium;
   USE prismdium;
-  
   -- CREATE TABLE usuarios 
   -- (
   --     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
