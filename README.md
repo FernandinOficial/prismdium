@@ -1,7 +1,7 @@
 # Anotações
 ## Inserção do banco de dados
 Copie e cole o seguinte código.
-  ```sql
+  ```python
   -- CREATE DATABASE prismdium;
   USE prismdium;
   -- CREATE TABLE usuarios 
