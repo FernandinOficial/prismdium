@@ -1,7 +1,7 @@
 # Anotações
 ## Inserção do banco de dados
 Copie e cole o seguinte codigo.
-  -- CREATE DATABASE prismdium;
+  ```-- CREATE DATABASE prismdium;
   USE prismdium;
   -- CREATE TABLE usuarios 
   -- (
