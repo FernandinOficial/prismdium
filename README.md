@@ -31,7 +31,6 @@
 
    SELECT * FROM usuarios;
 
-```
 obs: Só vai executar este código somente uma vez.
 * Execute o comando no seu editor de código.
 
