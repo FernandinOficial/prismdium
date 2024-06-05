@@ -2,6 +2,7 @@
 
 ## Inserção do banco de dados
 * Inicie o MySQL e Apache;
+* Na pasta sqlScripts
 * Crie um arquivo chamado database.sql
 * Copie e cole o seguinte código:
 
@@ -24,5 +25,4 @@ INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('fernando', 'fernando@gm
 SELECT * FROM usuarios;
 ```
 * Execute o c
-![image](https://github.com/FernandinOficial/prismdium/assets/151852919/0c818eb6-51b5-439e-a371-e7785d622406)
 
