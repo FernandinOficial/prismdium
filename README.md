@@ -1,4 +1,12 @@
 # Tutorial
+## Executar o site pelo servidor
+
+* Para editar ou acessar o site via código, coloque os arquivos em uma pasta do servidor local para realizar alterações, visualizar, etc.
+* Siga o tutorial abaixo para inserir o site no servidor local.
+
+1. Instale o XAMPP para executar o servidor local:
+   
+https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
 ## Inserção do banco de dados
 
@@ -27,7 +35,7 @@
        foto_perfil BLOB -- Tipo de dado para armazenar imagens até 64KB
    );
 
-   INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('fernando', 'fernando@gmail.com', '12345', 'M');
+   INSERT INTO usuarios (nome, email, senha, sexo) VALUES ('teste', 'teste@gmail.com', '12345', 'NS');
 
    SELECT * FROM usuarios;
 
