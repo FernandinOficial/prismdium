@@ -27,6 +27,7 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 5. Copie ou recorte e cole o arquivo `.zip` após ter realizado o download na pasta `prismdium`;
 6. Extrair o arquivo dentro da mesma pasta `prismdium`:
 
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/c73b71eb-c90d-4da3-9302-948dc1d0dea1)
 
 7. Pode deletar o arquivo `.zip`, restando somente a pasta:
 
