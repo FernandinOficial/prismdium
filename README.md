@@ -1,4 +1,4 @@
-# Tutorial
+# :book: Tutorial :book:
 ## Executar o site pelo servidor
 
 * Para editar ou acessar o site via código, coloque os arquivos em uma pasta do servidor local para realizar alterações, visualizar, etc.
@@ -33,7 +33,7 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
 ![image](https://github.com/FernandinOficial/prismdium/assets/151852919/168395db-fd0e-451a-b9a0-90e895ca3f53)
 
-8. Abra seu editor de código de preferência, neste caso foi utilizado o editor Visual Studio Code (VSCODE)
+8. Abra seu editor de código de preferência, neste caso foi utilizado o editor Visual Studio Code (VSCode)
 9. Vá na aba `File` ou `Arquivos` (Português Brasileiro)
 
 ![image](https://github.com/FernandinOficial/prismdium/assets/151852919/6e047ccd-a691-45d6-9d28-783081c7406e)
@@ -42,9 +42,11 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
 ![image](https://github.com/FernandinOficial/prismdium/assets/151852919/941c33db-0a37-40d9-862e-9291ff024b26)
 
-11. Na área de indicar a pasta na aba de navegação adicione o seguinte caminho, copie e cole:
+11. Na área de indicar a pasta na aba de navegação adicione o seguinte caminho e selecione a única pasta `prismdium-main`, copie e cole:
+
 `C:\xampp\htdocs\prismdium\prismdium-main`
 
+* Após realizado todos estes passos vá para a Segunda parte que fica abaixo. :smile:
 ## Inserção do banco de dados
 
 1. Inicie o MySQL e Apache.
