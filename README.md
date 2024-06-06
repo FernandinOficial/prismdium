@@ -24,6 +24,13 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
 ![image](https://github.com/FernandinOficial/prismdium/assets/151852919/fbb57bbc-44e8-44bd-b80a-d87bd06df26e)
 
+5. Copie ou recorte e cole o arquivo `.zip` após ter realizado o download na pasta `prismdium`;
+6. Extrair o arquivo dentro da mesma pasta `prismdium`:
+
+
+7. Pode deletar o arquivo `.zip`, restando somente a pasta:
+
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/168395db-fd0e-451a-b9a0-90e895ca3f53)
 
 ## Inserção do banco de dados
 
