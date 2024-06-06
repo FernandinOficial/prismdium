@@ -30,7 +30,7 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
 4. Copie e cole o seguinte código no arquivo `database.sql`:
 
-   ```sql
+   ```
    CREATE DATABASE prismdium;
    USE prismdium;
 
@@ -49,5 +49,5 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
    SELECT * FROM usuarios;
 
 obs: Só vai executar este código somente uma vez.
-* Execute o comando no seu editor de código.
+5. Execute o comando no seu editor de código.
 
