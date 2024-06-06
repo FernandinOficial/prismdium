@@ -49,5 +49,5 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
    SELECT * FROM usuarios;
 
 obs: Só vai executar este código somente uma vez.
-5. Execute o comando no seu editor de código.
+* Execute o comando no seu editor de código.
 
