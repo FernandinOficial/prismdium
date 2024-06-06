@@ -8,6 +8,15 @@
    
 https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 
+2. Vá na aba `Code` do https://github.com/FernandinOficial/prismdium:
+
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/e5cfaa75-da6e-49e3-8409-5dc9eaba5b61)
+* Selecione para instalar em arquivo .zip
+
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/510e2112-c437-4bb9-b38a-12d174efb1ad)
+
+3. Após a instalação, copie e cole este caminho na aba de navegação do Gerenciador de Arquivos com caminho na pasta `htdocs`:
+   `
 ## Inserção do banco de dados
 
 1. Inicie o MySQL e Apache.
