@@ -4,6 +4,7 @@
 * Para editar ou acessar o site via código, coloque os arquivos em uma pasta do servidor local para realizar alterações, visualizar, etc.
 * Siga o tutorial abaixo para inserir o site no servidor local.
 
+
 1. Instale o XAMPP para executar o servidor local:
    
 https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
@@ -47,6 +48,8 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 `C:\xampp\htdocs\prismdium\prismdium-main`
 
 * Após realizado todos estes passos vá para a Segunda parte que fica abaixo. :smile:
+
+
 ## Inserção do banco de dados
 
 1. Inicie o MySQL e Apache.
