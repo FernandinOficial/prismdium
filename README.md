@@ -16,7 +16,15 @@ https://youtu.be/eAyLWes8eEE?si=FG2s8f3fHUKHznTZ
 ![image](https://github.com/FernandinOficial/prismdium/assets/151852919/510e2112-c437-4bb9-b38a-12d174efb1ad)
 
 3. Após a instalação, copie e cole este caminho na aba de navegação do Gerenciador de Arquivos com caminho na pasta `htdocs`:
-   `
+`C:\xampp\htdocs`
+
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/81a6df72-ccdf-4728-8275-6d470879d0cf)
+
+4. Crie uma pasta chamada `prismdium`:
+
+![image](https://github.com/FernandinOficial/prismdium/assets/151852919/fbb57bbc-44e8-44bd-b80a-d87bd06df26e)
+
+
 ## Inserção do banco de dados
 
 1. Inicie o MySQL e Apache.
